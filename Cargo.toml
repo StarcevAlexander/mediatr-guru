@@ -1,0 +1,13 @@
+[package]
+name = "mediatrguru"
+version = "0.1.0"
+edition = "2024"
+description = "MediatR-style in-process mediator for Rust - typed request/response dispatch with a handler registry, zero dependencies"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/StarcevAlexander/mediatrguru"
+homepage = "https://github.com/StarcevAlexander/mediatrguru"
+readme = "README.md"
+keywords = ["mediator", "dispatch", "messaging", "mediatr", "events"]
+categories = ["rust-patterns", "concurrency"]
+
+[dependencies]
