@@ -1,3 +1,5 @@
+> **DEPRECATED:** this crate has been renamed to [`mediatr-guru`](https://crates.io/crates/mediatr-guru). New code should depend on `mediatr-guru`.
+
 # mediatrguru
 
 **MediatR-style in-process mediator for Rust** — register typed request/response handlers in a registry, dispatch by type, zero dependencies.
