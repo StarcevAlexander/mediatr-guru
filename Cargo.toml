@@ -1,11 +1,11 @@
 [package]
-name = "mediatrguru"
-version = "0.1.1"
+name = "mediatr-guru"
+version = "0.1.0"
 edition = "2024"
-description = "DEPRECATED: renamed to mediatr-guru - use that crate instead"
+description = "MediatR-style in-process mediator for Rust - typed request/response dispatch with a handler registry, zero dependencies"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/StarcevAlexander/mediatrguru"
-homepage = "https://github.com/StarcevAlexander/mediatrguru"
+repository = "https://github.com/StarcevAlexander/mediatr-guru"
+homepage = "https://github.com/StarcevAlexander/mediatr-guru"
 readme = "README.md"
 keywords = ["mediator", "dispatch", "messaging", "mediatr", "events"]
 categories = ["rust-patterns", "concurrency"]

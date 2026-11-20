@@ -1,15 +1,15 @@
-> **DEPRECATED:** this crate has been renamed to [`mediatr-guru`](https://crates.io/crates/mediatr-guru). New code should depend on `mediatr-guru`.
-
-# mediatrguru
+# mediatr-guru
 
 **MediatR-style in-process mediator for Rust** — register typed request/response handlers in a registry, dispatch by type, zero dependencies.
+
+Formerly published on crates.io as `mediatrguru`.
 
 For developers coming from C#'s [MediatR](https://github.com/jbogard/MediatR) who miss `IMediator.Send(request)` when splitting application logic into handlers.
 
 ## Usage
 
 ```rust
-use mediatrguru::{Mediator, Request};
+use mediatr_guru::{Mediator, Request};
 
 struct Ping;
 impl Request for Ping {
